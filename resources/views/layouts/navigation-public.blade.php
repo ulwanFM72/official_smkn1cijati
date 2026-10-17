@@ -147,15 +147,15 @@
 
                    <ul class="dropdown-menu" aria-labelledby="ekskulDropdown">
                         <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 10) }}">Paskibra</a></li>
-                        <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 9) }}">Pramuka</a></li>
-                        <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 8) }}">PMR</a></li>
-                        <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 7) }}">Marching Band</a></li>
-                        <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 6) }}">Rohis</a></li>
-                        <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 5) }}">Karawitan</a></li>
-                        <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 4) }}">Volly Ball</a></li>
-                        <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 3) }}">Futsal</a></li>
-                        <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 2) }}">Cinemak</a></li>
-                        <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 1) }}">Bahasa Jepang</a></li>
+                        <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 9) }}">Marching Band</a></li>
+                        <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 8) }}">Rohis</a></li>
+                        <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 7) }}">Karawitan</a></li>
+                        <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 6) }}">Bahasa Jepang</a></li>
+                        <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 5) }}">Volly</a></li>
+                        <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 4) }}">Futsal</a></li>
+                        <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 3) }}">PMR</a></li>
+                        <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 2) }}">Pramuka</a></li>
+                        <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 1) }}">Cinemak</a></li>
                     </ul>
                 </li>
 
