@@ -1,3 +1,4 @@
+
 <?php
 
 use Illuminate\Database\Migrations\Migration;
@@ -6,20 +7,21 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-    /**
-     * Run the migrations.
-     */
     public function up(): void
-{
-    Schema::table('ekstrakurikuler', function (Blueprint $table) {
-        $table->string('logo')->nullable();
-    });
-}
+    {
+        if (!Schema::hasColumn('ekstrakurikuler', 'logo')) {
+            Schema::table('ekstrakurikuler', function (Blueprint $table) {
+                $table->string('logo')->nullable();
+            });
+        }
+    }
 
     public function down(): void
     {
-        Schema::table('ekstrakurikuler', function (Blueprint $table) {
-            $table->dropColumn('logo');
-        });
+        if (Schema::hasColumn('ekstrakurikuler', 'logo')) {
+            Schema::table('ekstrakurikuler', function (Blueprint $table) {
+                $table->dropColumn('logo');
+            });
+        }
     }
 };

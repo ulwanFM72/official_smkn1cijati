@@ -11,12 +11,6 @@
 
 @section('content')
 
-<!-- ============================================================
-     HERO SLIDESHOW — SMK Negeri 1 Cijati
-     Struktur: Bootstrap 5 Carousel (dipertahankan, tidak diubah)
-     Taruh gambar di: public/images/hero-1.jpg (gedung sekolah)
-                       public/images/hero-2.jpg (baris/upacara)
-     ============================================================ -->
 <div id="heroCarousel"
      class="carousel slide carousel-fade hero-carousel"
      data-bs-ride="carousel"
@@ -33,13 +27,11 @@
             $heroSlides = [
                 [
                     'img'     => 'hero-1.jpg',
-                    'eyebrow' => 'SMK NEGERI 1 CIJATI',
                     'title'   => 'Tempat Tumbuh, Tempat Berkarya',
                     'desc'    => 'Membangun generasi kompeten, berkarakter, dan siap menghadapi masa depan.',
                 ],
                 [
                     'img'     => 'hero-2.jpg',
-                    'eyebrow' => 'DISCIPLINE • CHARACTER • TOGETHERNESS',
                     'title'   => 'Tumbuh Bersama, Melangkah Bersama',
                     'desc'    => 'Membangun kedisiplinan, kebersamaan, dan karakter untuk masa depan.',
                 ],
@@ -54,11 +46,6 @@
 
                     <div class="hero-slide__content">
                         <div class="hero-slide__content-inner">
-                            <div class="hero-eyebrow-row">
-                                <span class="line"></span>
-                                <span class="hero-eyebrow">{{ $slide['eyebrow'] }}</span>
-                                <span class="line"></span>
-                            </div>
                             <h1 class="hero-title">{{ $slide['title'] }}</h1>
                             <p class="hero-desc">{{ $slide['desc'] }}</p>
                         </div>

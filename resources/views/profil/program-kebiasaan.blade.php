@@ -209,7 +209,7 @@
                     <div class="pk-card">
                         <div class="pk-icon"><i class="fas fa-praying-hands"></i></div>
                         <span class="pk-day">Selasa</span>
-                        <h5 class="pk-title">Sholat Dhuha Berjamaah</h5>
+                        <h5 class="pk-title">SEHATI (Senam Sehat SMKN 1 Cijati)</h5>
                         <p class="pk-desc">
                             Dilaksanakan setiap pagi sebelum kegiatan belajar mengajar dimulai.
                         </p>
@@ -219,8 +219,9 @@
                     <div class="pk-card">
                         <div class="pk-icon"><i class="fas fa-book-open"></i></div>
                         <span class="pk-day">Rabu</span>
-                        <h5 class="pk-title">Literasi</h5>
+                        <h5 class="pk-title">RELASI (Rabu Literasi)</h5>
                         <p class="pk-desc">
+                            Dilaksanakan setiap pagi sebelum kegiatan belajar mengajar dimulai.
                             Membaca 15 menit sebelum jam pelajaran pertama untuk menumbuhkan minat baca siswa.
                         </p>
                     </div>
@@ -229,9 +230,9 @@
                     <div class="pk-card">
                         <div class="pk-icon"><i class="fas fa-hand-holding-heart"></i></div>
                         <span class="pk-day">Kamis</span>
-                        <h5 class="pk-title">5S (Senyum, Salam, Sapa, Sopan, Santun)</h5>
+                        <h5 class="pk-title">APEL Pagi</h5>
                         <p class="pk-desc">
-                            Membiasakan budaya sopan santun dalam interaksi antar warga sekolah.
+                           Dilaksanakan setiap pagi sebelum kegiatan belajar mengajar dimulai.
                         </p>
                     </div>
 
@@ -239,7 +240,7 @@
                     <div class="pk-card pk-card--center">
                         <div class="pk-icon"><i class="fas fa-broom"></i></div>
                         <span class="pk-day">Jumat</span>
-                        <h5 class="pk-title">Jumat Bersih</h5>
+                        <h5 class="pk-title">Istigosah</h5>
                         <p class="pk-desc">
                             Gotong royong membersihkan lingkungan sekolah untuk menanamkan kepedulian lingkungan.
                         </p>

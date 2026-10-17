@@ -34,11 +34,11 @@ class AdminEkstrakurikulerController extends Controller
             'deskripsi' => 'nullable|string',
             'pembina' => 'nullable|string|max:255',
             'jadwal' => 'nullable|string|max:255',
-            'gambar' => 'nullable|image|mimes:jpg,jpeg,png|max:2048',
-            'foto2' => 'nullable|image|mimes:jpg,jpeg,png|max:2048',
-            'foto3' => 'nullable|image|mimes:jpg,jpeg,png|max:2048',
-            'foto4' => 'nullable|image|mimes:jpg,jpeg,png|max:2048',
-            'logo' => 'nullable|image|mimes:jpg,jpeg,png|max:2048',
+            'gambar' => 'nullable|image|mimes:jpg,jpeg,png,webp|max:2048',
+            'foto2' => 'nullable|image|mimes:jpg,jpeg,png,webp|max:2048',
+            'foto3' => 'nullable|image|mimes:jpg,jpeg,png,webp|max:2048',
+            'foto4' => 'nullable|image|mimes:jpg,jpeg,png,webp|max:2048',
+            'logo' => 'nullable|image|mimes:jpg,jpeg,png,webp|max:2048',
         ]);
 
         $data = [

@@ -38,7 +38,6 @@
             <a href="{{ route('home') }}" class="text-decoration-none text-dark">
                 <h4 class="fw-bold mb-0">SMK Negeri 1 Cijati</h4>
             </a>
-            <small class="text-muted">Admin Panel</small>
         </div>
 
         <div class="card shadow-sm border-0">

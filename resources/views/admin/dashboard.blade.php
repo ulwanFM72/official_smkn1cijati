@@ -126,7 +126,7 @@
 <div class="dash-welcome-card mb-4">
     <div class="row align-items-center">
         <div class="col-md-8">
-            <p class="mb-1" style="color:#3b82f6; font-weight:600;">Selamat Datang,</p>
+            <p class="mb-1" style="color:#3b82f6; font-weight:600;">Selamat Datang</p>
             <h2 class="fw-bold mb-2" style="color:#1e293b;">Admin {{ $profil->nama_sekolah ?? 'SMK Negeri 1 Cijati' }}</h2>
             <p class="mb-0" style="color:#64748b;">Kelola data sekolah dengan mudah dan cepat.</p>
         </div>

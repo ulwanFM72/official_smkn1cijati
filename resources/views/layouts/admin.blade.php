@@ -42,10 +42,6 @@
                     <i class="fas fa-bars"></i>
                 </button>
 
-                <span class="navbar-text ms-3">
-                    Admin SMK Negeri 1 Cijati
-                </span>
-
             </div>
         </nav>
 

@@ -93,9 +93,6 @@
                 <div class="fw-bold text-uppercase" style="font-size: 1.1rem; line-height: 1.2; color: #1a1a1a; letter-spacing: 0.3px;">
                     SMK NEGERI 1 CIJATI
                 </div>
-                <div style="font-size: 0.8rem; color: #6b7280; font-weight: 400;">
-                    Sekolah Unggul, Berkarakter, Berprestasi
-                </div>
             </div>
         </a>
 
@@ -157,7 +154,7 @@
                         <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 5) }}">Karawitan</a></li>
                         <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 4) }}">Volly Ball</a></li>
                         <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 3) }}">Futsal</a></li>
-                        <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 2) }}">Cinematik</a></li>
+                        <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 2) }}">Cinemak</a></li>
                         <li><a class="dropdown-item" href="{{ route('ekstrakurikuler.show', 1) }}">Bahasa Jepang</a></li>
                     </ul>
                 </li>

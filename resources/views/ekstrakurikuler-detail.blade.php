@@ -96,6 +96,33 @@
         object-fit: cover;
     }
 
+    /* ===== TOMBOL DAFTAR ESKUL ===== */
+    .ed-daftar-wrap {
+        margin-top: 20px;
+    }
+    .ed-daftar-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        width: 100%;
+        font-weight: 600;
+        font-size: .95rem;
+        color: #228be6;
+        background: transparent;
+        border: 1.5px solid #228be6;
+        border-radius: 12px;
+        padding: 10px 22px;
+        text-decoration: none;
+        transition: background .2s ease, color .2s ease, gap .2s ease;
+    }
+    .ed-daftar-btn:hover {
+        background: #228be6;
+        color: #fff;
+        gap: 12px;
+    }
+    .ed-daftar-btn svg { width: 16px; height: 16px; flex-shrink: 0; }
+
     /* ===== KOLOM KANAN: KONTEN ===== */
     .ed-badge {
         display: inline-block;
@@ -291,6 +318,14 @@
                     </div>
                 </div>
                 @endif
+
+                {{-- TOMBOL DAFTAR ESKUL: ganti href dengan link website pendaftaran --}}
+                <div class="ed-daftar-wrap">
+                    <a href="https://reg-eskul.smkn1cijati.sch.id/" target="_blank" rel="noopener noreferrer" class="ed-daftar-btn">
+                        Daftar Ekstrakurikuler
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </a>
+                </div>
             </div>
 
             {{-- ===== KOLOM KANAN: KONTEN ===== --}}

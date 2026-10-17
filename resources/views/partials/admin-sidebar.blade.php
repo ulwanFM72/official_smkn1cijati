@@ -2,7 +2,6 @@
 
     <div class="sidebar-heading p-3 text-center border-bottom">
         <h5>SMK Negeri 1 Cijati</h5>
-        <small>Admin Panel</small>
     </div>
 
     <div class="list-group list-group-flush">
