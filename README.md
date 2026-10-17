@@ -1,4 +1,3 @@
-# web-sekolah-juita-mahalia
 # Website Resmi SMK Negeri 1 Cijati
 
 Website resmi SMK Negeri 1 Cijati merupakan platform digital yang dirancang
