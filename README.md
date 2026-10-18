@@ -78,4 +78,4 @@ Proyek ini dikembangkan berdasarkan repositori awal milik juitamhlia
 
 ## Lisensi
 
-Cantumkan lisensi sesuai ketentuan sekolah dan repositori asal.
+© 2026 Ulwan FM. All rights reserved.
