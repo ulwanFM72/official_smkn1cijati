@@ -60,16 +60,16 @@ Aplikasi dapat diakses melalui http://localhost:8000.
 
 ## Struktur Direktori
 
-- app/        : logika aplikasi (controller, model)
-- resources/  : tampilan (Blade), aset CSS dan JavaScript
-- routes/     : definisi rute aplikasi
-- database/   : migrasi dan seeder
-- public/     : berkas yang dapat diakses publik
+- app/ : logika aplikasi (controller, model)
+- resources/ : tampilan (Blade), aset CSS dan JavaScript
+- routes/ : definisi rute aplikasi
+- database/ : migrasi dan seeder
+- public/ : berkas yang dapat diakses publik
 
 ## Kontribusi
 
-Kontribusi sangat terbuka. Silakan ajukan *issue* untuk melaporkan masalah
-atau usulan fitur, dan kirimkan *pull request* untuk perbaikan.
+Kontribusi sangat terbuka. Silakan ajukan _issue_ untuk melaporkan masalah
+atau usulan fitur, dan kirimkan _pull request_ untuk perbaikan.
 
 ## Kredit
 
