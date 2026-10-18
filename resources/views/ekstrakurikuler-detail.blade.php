@@ -418,7 +418,7 @@ $fokusKegiatan = match($ekstrakurikuler->id) {
                 @endphp
 
                 <div class="ed-fokus-card">
-                    <h3>Fokus Kegiatan</h3>
+                    <h3>Fokus Kegiatan</h3>.
                     <p>Nilai-nilai utama yang dikembangkan dalam {{ $ekstrakurikuler->nama }}.</p>
 
                     <div class="ed-fokus-grid">
