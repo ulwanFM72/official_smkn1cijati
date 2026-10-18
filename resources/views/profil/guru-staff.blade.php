@@ -701,7 +701,7 @@
     <section class="jd-hero">
 
         <img
-            src="{{ asset('images/smk.jpg') }}"
+            src="{{ asset('images/sekolah.jpg') }}"
             alt="Guru & Staf SMK Negeri 1 Cijati"
         >
 

@@ -132,7 +132,7 @@
         </div>
         <div class="col-md-4 text-md-end d-none d-md-block">
             @if($profil->foto ?? false)
-                <img src="{{ asset('storage/' . $profil->foto) }}"
+                <img src="{{ asset('images/sekolah.jpg') }}"
                      style="max-height:130px; border-radius:16px; object-fit:cover;"
                      alt="{{ $profil->nama_sekolah ?? 'Sekolah' }}">
             @endif
@@ -250,7 +250,7 @@
 
             <div class="d-flex gap-3 mb-3">
                 @if($profil->foto ?? false)
-                    <img src="{{ asset('storage/' . $profil->foto) }}"
+                    <img src="{{ asset('images/sekolah.jpg') }}"
                          style="width:80px; height:80px; border-radius:14px; object-fit:cover; flex-shrink:0;"
                          alt="{{ $profil->nama_sekolah ?? 'Sekolah' }}">
                 @endif

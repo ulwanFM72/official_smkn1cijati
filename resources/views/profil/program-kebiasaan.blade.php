@@ -74,7 +74,7 @@
 
 <!-- ======================= HERO ======================= -->
 <section class="jd-hero">
-    <img src="{{ asset('images/smk.jpg') }}" alt="Sejarah Sekolah">
+    <img src="{{ asset('images/sekolah.jpg') }}" alt="Sejarah Sekolah">
     <div class="jd-hero-content">
         <span class="jd-hero-eyebrow">Program Kebiasaan</span>
         <p>Pembiasaan positif setiap hari di SMK Negeri 1 Cijati{{ $profil->nama_sekolah ?? 'SMK Negeri 1 Cijati' }}</p>
@@ -207,7 +207,7 @@
 
                     <!-- SELASA -->
                     <div class="pk-card">
-                        <div class="pk-icon"><i class="fas fa-praying-hands"></i></div>
+                        <div class="pk-icon"><i class="fa-duotone fa-solid fa-person-running"></i></div>
                         <span class="pk-day">Selasa</span>
                         <h5 class="pk-title">SEHATI (Senam Sehat SMKN 1 Cijati)</h5>
                         <p class="pk-desc">
@@ -228,7 +228,7 @@
 
                     <!-- KAMIS -->
                     <div class="pk-card">
-                        <div class="pk-icon"><i class="fas fa-hand-holding-heart"></i></div>
+                        <div class="pk-icon"><i class="fas fa-flag"></i></div>
                         <span class="pk-day">Kamis</span>
                         <h5 class="pk-title">APEL Pagi</h5>
                         <p class="pk-desc">
@@ -238,7 +238,7 @@
 
                     <!-- JUMAT (di-center karena ganjil) -->
                     <div class="pk-card pk-card--center">
-                        <div class="pk-icon"><i class="fas fa-broom"></i></div>
+                        <div class="pk-icon"><i class="fas fa-praying-hands"></i></div>
                         <span class="pk-day">Jumat</span>
                         <h5 class="pk-title">Istigosah</h5>
                         <p class="pk-desc">

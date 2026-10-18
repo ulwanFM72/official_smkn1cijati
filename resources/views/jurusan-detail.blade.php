@@ -432,7 +432,6 @@
                     'Sima Kristiana',
                 ],
                 2 => [ // APHP
-                    'Budiana',
                     'Ende Iskandar',
                 ],
                 3 => [ // BDP / Pemasaran

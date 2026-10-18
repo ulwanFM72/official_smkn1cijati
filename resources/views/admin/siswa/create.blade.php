@@ -1,15 +1,10 @@
-<x-app-layout>
+@extends('layouts.admin')
 
-    <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            Atur Jumlah Siswa
-        </h2>
-    </x-slot>
+@section('title', 'Atur Jumlah Siswa')
 
-    <div class="py-10"
-         style="background-color: #f3f4f6; min-height: 100vh;">
+@section('content')
 
-        <div class="max-w-3xl mx-auto sm:px-6 lg:px-8">
+    <div class="max-w-3xl mx-auto">
 
             <div class="bg-white rounded-xl shadow-sm p-6">
 
@@ -126,8 +121,6 @@
 
             </div>
 
-        </div>
-
     </div>
 
-</x-app-layout>
+@endsection

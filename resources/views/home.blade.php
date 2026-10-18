@@ -422,7 +422,7 @@
         @php
             $itemUtama = $ekskul->firstWhere('nama', 'MARCHING BAND') ?? $ekskul->first();
 
-            $namaKecil = ['CINEMATIK', 'FUTSAL BALL', 'VOLLY BALL', 'PRAMUKA'];
+            $namaKecil = ['Pramuka', 'Paskibra', 'Marching Band', 'PMR'];
             $itemKecil = collect($namaKecil)
                 ->map(fn($nama) => $ekskul->firstWhere('nama', $nama))
                 ->filter();
