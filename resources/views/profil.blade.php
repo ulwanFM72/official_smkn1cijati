@@ -104,6 +104,7 @@
     width:110px;
     height:80px;
     bottom:-18px;
+
     left:-18px;
     z-index:-1;
     background-image:radial-gradient(var(--blue) 2px, transparent 2px);
@@ -219,17 +220,17 @@
     <div class="ts2-grid">
 
       <div class="ts2-photo">
-        @if($profil->foto ?? false)
-          <img src="{{ asset('storage/'.$profil->foto) }}"
-               alt="Gedung {{ $profil->nama_sekolah ?? 'SMKN 1 Cijati' }}">
-        @else
-          <img src="{{ asset('images/gedung-sekolah.jpg') }}"
-               alt="Gedung SMKN 1 Cijati">
-        @endif
+  @if($profil->foto ?? false)
+    <img src="{{ asset('images/'.$profil->foto) }}"
+         alt="Gedung {{ $profil->nama_sekolah ?? 'SMKN 1 Cijati' }}">
+  @else
+    <img src="{{ asset('images/sekolah.jpg') }}"
+         alt="Gedung SMKN 1 Cijati">
+  @endif
 
-        <div class="ts2-photo-cut"></div>
-        <div class="ts2-photo-dots"></div>
-      </div>
+  <div class="ts2-photo-cut"></div>
+  <div class="ts2-photo-dots"></div>
+</div>
 
       <div>
 

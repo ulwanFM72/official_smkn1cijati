@@ -348,7 +348,7 @@
 
 <!-- ======================= 1. HEADER DETAIL JURUSAN ======================= -->
 <section class="jd-hero">
-    <img src="{{ asset('images/smk.jpg') }}" alt="{{ $jurusan->nama }}">
+    <img src="{{ asset('images/sekolah.jpg') }}" alt="{{ $jurusan->nama }}">
     <div class="jd-hero-content">
         @if($jurusan->logo)
             <div class="jd-hero-badge">

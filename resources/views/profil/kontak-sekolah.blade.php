@@ -393,7 +393,7 @@
 
 <!-- ======================= HERO (tidak diubah) ======================= -->
 <section class="gl-hero">
-    <img src="{{ asset('images/smk.jpg') }}" alt="Kontak SMK Negeri 1 Cijati">
+    <img src="{{ asset('images/sekolah.jpg') }}" alt="Kontak SMK Negeri 1 Cijati">
     <span class="gl-hero-eyebrow">Kontak Sekolah</span>
     <p>Silakan hubungi SMK Negeri 1 Cijati melalui informasi berikut.</p>
 </section>
@@ -522,7 +522,7 @@
 
                 <div class="col-lg-5">
                     <div class="kt-tentang-foto-wrap">
-                        <div class="kt-tentang-foto" style="background-image:url('{{ asset('images/smk.jpg') }}');"></div>
+                        <div class="kt-tentang-foto" style="background-image:url('{{ asset('images/sekolah.jpg') }}');"></div>
                     </div>
                 </div>
 

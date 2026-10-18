@@ -6,7 +6,7 @@
 
 <!-- HERO -->
 <section class="py-5 text-white text-center"
-    style="background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('{{ asset('images/hero-bg.jpg') }}') center/cover; min-height: 500px;">
+    style="background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('{{ asset('images/sekolah.jpg') }}') center/cover; min-height: 500px;">
 
     <div class="container py-5">
 
