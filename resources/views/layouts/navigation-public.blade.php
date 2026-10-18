@@ -122,7 +122,7 @@
                         <li><a class="dropdown-item" href="{{ route('profil.sejarah') }}">Sejarah Singkat</a></li>
                         <li><a class="dropdown-item" href="{{ route('profil.visimisi') }}">Visi &  Misi </a></li>
                         <li><a class="dropdown-item" href="{{ route('profil.guru-staff') }}">Guru dan Staff</a></li>
-                        <li><a class="dropdown-item" href="{{ route('profil.programkebiasaan') }}">Program Kebiasaan</a></li>
+                        <li><a class="dropdown-item" href="{{ route('profil.programkebiasaan') }}">Program Pembiasaan</a></li>
                     </ul>
                 </li>
 

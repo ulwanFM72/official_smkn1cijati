@@ -356,63 +356,65 @@
                         'compass' => '<circle cx="12" cy="12" r="9"/><path d="M16 8l-2 6-6 2 2-6 6-2z"/>',
                     ];
 
-                    $fokusKegiatan = match($ekstrakurikuler->id) {
-                        1 => [ // Bahasa Jepang
-                            ['icon' => 'book', 'judul' => 'Kemampuan Bahasa', 'desc' => 'Melatih kemampuan membaca, menulis, dan berbicara bahasa Jepang.'],
-                            ['icon' => 'heart', 'judul' => 'Wawasan Budaya', 'desc' => 'Mengenal budaya dan kebiasaan masyarakat Jepang.'],
-                            ['icon' => 'star', 'judul' => 'Percaya Diri', 'desc' => 'Membangun rasa percaya diri berkomunikasi bahasa asing.'],
-                        ],
-                        2 => [ // Cinematik
-                            ['icon' => 'star', 'judul' => 'Kreativitas', 'desc' => 'Mengembangkan ide dan kreativitas dalam produksi video.'],
-                            ['icon' => 'people', 'judul' => 'Kerja Sama Tim', 'desc' => 'Berkolaborasi dalam proses produksi film dan video.'],
-                            ['icon' => 'book', 'judul' => 'Kemampuan Bercerita', 'desc' => 'Melatih penyampaian pesan lewat visual dan naskah.'],
-                        ],
-                        3 => [ // Futsal Ball
-                            ['icon' => 'people', 'judul' => 'Kerja Sama Tim', 'desc' => 'Melatih kekompakan dan strategi bermain bersama tim.'],
-                            ['icon' => 'shield', 'judul' => 'Sportivitas', 'desc' => 'Menjunjung tinggi sikap sportif dan fair play.'],
-                            ['icon' => 'target', 'judul' => 'Stamina & Ketangkasan', 'desc' => 'Meningkatkan kebugaran fisik dan ketangkasan.'],
-                        ],
-                        4 => [ // Volly Ball
-                            ['icon' => 'people', 'judul' => 'Kerja Sama Tim', 'desc' => 'Melatih kekompakan dan komunikasi antar pemain.'],
-                            ['icon' => 'shield', 'judul' => 'Sportivitas', 'desc' => 'Menjunjung tinggi sikap sportif dan fair play.'],
-                            ['icon' => 'target', 'judul' => 'Ketangkasan', 'desc' => 'Meningkatkan refleks dan ketangkasan bermain.'],
-                        ],
-                        5 => [ // Karawitan
-                            ['icon' => 'music', 'judul' => 'Pelestarian Budaya', 'desc' => 'Melestarikan seni musik tradisional daerah.'],
-                            ['icon' => 'people', 'judul' => 'Kekompakan', 'desc' => 'Melatih keselarasan bermain gamelan bersama.'],
-                            ['icon' => 'heart', 'judul' => 'Kepekaan Seni', 'desc' => 'Mengasah rasa seni dan apresiasi budaya.'],
-                        ],
-                        6 => [ // Rohis
-                            ['icon' => 'heart', 'judul' => 'Keimanan', 'desc' => 'Memperkuat keimanan dan ketakwaan siswa.'],
-                            ['icon' => 'star', 'judul' => 'Akhlak Mulia', 'desc' => 'Membentuk akhlak dan karakter yang baik.'],
-                            ['icon' => 'people', 'judul' => 'Kepedulian Sosial', 'desc' => 'Menumbuhkan kepedulian terhadap sesama.'],
-                        ],
-                        7 => [ // Marching Band
-                            ['icon' => 'people', 'judul' => 'Kekompakan', 'desc' => 'Melatih kekompakan formasi dan barisan.'],
-                            ['icon' => 'shield', 'judul' => 'Disiplin', 'desc' => 'Membentuk sikap disiplin dan tanggung jawab.'],
-                            ['icon' => 'music', 'judul' => 'Ketepatan Irama', 'desc' => 'Mengasah ketepatan irama dan harmoni musik.'],
-                        ],
-                        8 => [ // PMR
-                            ['icon' => 'heart', 'judul' => 'Kepedulian Sosial', 'desc' => 'Menumbuhkan kepedulian dan sikap tolong-menolong.'],
-                            ['icon' => 'shield', 'judul' => 'Kesiapsiagaan', 'desc' => 'Melatih kesiapsiagaan dalam pertolongan pertama.'],
-                            ['icon' => 'people', 'judul' => 'Kerja Sama Tim', 'desc' => 'Bekerja sama saat penanganan situasi darurat.'],
-                        ],
-                        9 => [ // Pramuka
-                            ['icon' => 'compass', 'judul' => 'Kemandirian', 'desc' => 'Melatih kemandirian dan keterampilan hidup.'],
-                            ['icon' => 'shield', 'judul' => 'Kedisiplinan', 'desc' => 'Membentuk sikap disiplin dan tanggung jawab.'],
-                            ['icon' => 'star', 'judul' => 'Kepemimpinan', 'desc' => 'Melatih jiwa kepemimpinan dan percaya diri.'],
-                        ],
-                        10 => [ // Paskibra
-                            ['icon' => 'star', 'judul' => 'Disiplin', 'desc' => 'Membentuk sikap disiplin dan tanggung jawab.'],
-                            ['icon' => 'people', 'judul' => 'Kekompakan', 'desc' => 'Meningkatkan kerja sama tim dan solidaritas.'],
-                            ['icon' => 'star', 'judul' => 'Kepemimpinan', 'desc' => 'Melatih jiwa kepemimpinan dan percaya diri.'],
-                        ],
-                        default => [
-                            ['icon' => 'star', 'judul' => 'Disiplin', 'desc' => 'Membentuk sikap disiplin dan tanggung jawab.'],
-                            ['icon' => 'people', 'judul' => 'Kekompakan', 'desc' => 'Meningkatkan kerja sama tim dan solidaritas.'],
-                            ['icon' => 'star', 'judul' => 'Kepemimpinan', 'desc' => 'Melatih jiwa kepemimpinan dan percaya diri.'],
-                        ],
-                    };
+                    
+$fokusKegiatan = match($ekstrakurikuler->id) {
+    1 => [ // Cinematik
+        ['icon' => 'star', 'judul' => 'Kreativitas', 'desc' => 'Mengembangkan ide dan kreativitas dalam produksi video.'],
+        ['icon' => 'people', 'judul' => 'Kerja Sama Tim', 'desc' => 'Berkolaborasi dalam proses produksi film dan video.'],
+        ['icon' => 'book', 'judul' => 'Kemampuan Bercerita', 'desc' => 'Melatih penyampaian pesan lewat visual dan naskah.'],
+    ],
+    2 => [ // Pramuka
+        ['icon' => 'compass', 'judul' => 'Kemandirian', 'desc' => 'Melatih kemandirian dan keterampilan hidup.'],
+        ['icon' => 'shield', 'judul' => 'Kedisiplinan', 'desc' => 'Membentuk sikap disiplin dan tanggung jawab.'],
+        ['icon' => 'star', 'judul' => 'Kepemimpinan', 'desc' => 'Melatih jiwa kepemimpinan dan percaya diri.'],
+    ],
+    3 => [ // PMR
+        ['icon' => 'heart', 'judul' => 'Kepedulian Sosial', 'desc' => 'Menumbuhkan kepedulian dan sikap tolong-menolong.'],
+        ['icon' => 'shield', 'judul' => 'Kesiapsiagaan', 'desc' => 'Melatih kesiapsiagaan dalam pertolongan pertama.'],
+        ['icon' => 'people', 'judul' => 'Kerja Sama Tim', 'desc' => 'Bekerja sama saat penanganan situasi darurat.'],
+    ],
+    4 => [ // Futsal
+        ['icon' => 'people', 'judul' => 'Kerja Sama Tim', 'desc' => 'Melatih kekompakan dan strategi bermain bersama tim.'],
+        ['icon' => 'shield', 'judul' => 'Sportivitas', 'desc' => 'Menjunjung tinggi sikap sportif dan fair play.'],
+        ['icon' => 'target', 'judul' => 'Stamina & Ketangkasan', 'desc' => 'Meningkatkan kebugaran fisik dan ketangkasan.'],
+    ],
+    5 => [ // Volly
+        ['icon' => 'people', 'judul' => 'Kerja Sama Tim', 'desc' => 'Melatih kekompakan dan komunikasi antar pemain.'],
+        ['icon' => 'shield', 'judul' => 'Sportivitas', 'desc' => 'Menjunjung tinggi sikap sportif dan fair play.'],
+        ['icon' => 'target', 'judul' => 'Ketangkasan', 'desc' => 'Meningkatkan refleks dan ketangkasan bermain.'],
+    ],
+    6 => [ // Bahasa Jepang
+        ['icon' => 'book', 'judul' => 'Kemampuan Bahasa', 'desc' => 'Melatih kemampuan membaca, menulis, dan berbicara bahasa Jepang.'],
+        ['icon' => 'heart', 'judul' => 'Wawasan Budaya', 'desc' => 'Mengenal budaya dan kebiasaan masyarakat Jepang.'],
+        ['icon' => 'star', 'judul' => 'Percaya Diri', 'desc' => 'Membangun rasa percaya diri berkomunikasi bahasa asing.'],
+    ],
+    7 => [ // Karawitan
+        ['icon' => 'music', 'judul' => 'Pelestarian Budaya', 'desc' => 'Melestarikan seni musik tradisional daerah.'],
+        ['icon' => 'people', 'judul' => 'Kekompakan', 'desc' => 'Melatih keselarasan bermain gamelan bersama.'],
+        ['icon' => 'heart', 'judul' => 'Kepekaan Seni', 'desc' => 'Mengasah rasa seni dan apresiasi budaya.'],
+    ],
+    8 => [ // Rohis
+        ['icon' => 'heart', 'judul' => 'Keimanan', 'desc' => 'Memperkuat keimanan dan ketakwaan siswa.'],
+        ['icon' => 'star', 'judul' => 'Akhlak Mulia', 'desc' => 'Membentuk akhlak dan karakter yang baik.'],
+        ['icon' => 'people', 'judul' => 'Kepedulian Sosial', 'desc' => 'Menumbuhkan kepedulian terhadap sesama.'],
+    ],
+    9 => [ // Marching Band
+        ['icon' => 'people', 'judul' => 'Kekompakan', 'desc' => 'Melatih kekompakan formasi dan barisan.'],
+        ['icon' => 'shield', 'judul' => 'Disiplin', 'desc' => 'Membentuk sikap disiplin dan tanggung jawab.'],
+        ['icon' => 'music', 'judul' => 'Ketepatan Irama', 'desc' => 'Mengasah ketepatan irama dan harmoni musik.'],
+    ],
+    10 => [ // Paskibra
+        ['icon' => 'star', 'judul' => 'Disiplin', 'desc' => 'Membentuk sikap disiplin dan tanggung jawab.'],
+        ['icon' => 'people', 'judul' => 'Kekompakan', 'desc' => 'Meningkatkan kerja sama tim dan solidaritas.'],
+        ['icon' => 'star', 'judul' => 'Kepemimpinan', 'desc' => 'Melatih jiwa kepemimpinan dan percaya diri.'],
+    ],
+    default => [
+        ['icon' => 'star', 'judul' => 'Disiplin', 'desc' => 'Membentuk sikap disiplin dan tanggung jawab.'],
+        ['icon' => 'people', 'judul' => 'Kekompakan', 'desc' => 'Meningkatkan kerja sama tim dan solidaritas.'],
+        ['icon' => 'star', 'judul' => 'Kepemimpinan', 'desc' => 'Melatih jiwa kepemimpinan dan percaya diri.'],
+    ],
+};
+
                 @endphp
 
                 <div class="ed-fokus-card">

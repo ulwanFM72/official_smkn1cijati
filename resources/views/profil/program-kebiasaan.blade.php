@@ -76,8 +76,8 @@
 <section class="jd-hero">
     <img src="{{ asset('images/sekolah.jpg') }}" alt="Sejarah Sekolah">
     <div class="jd-hero-content">
-        <span class="jd-hero-eyebrow">Program Kebiasaan</span>
-        <p>Pembiasaan positif setiap hari di SMK Negeri 1 Cijati{{ $profil->nama_sekolah ?? 'SMK Negeri 1 Cijati' }}</p>
+        <span class="jd-hero-eyebrow">Program Pembiasaan</span>
+        <p>Pembiasaan positif setiap hari di {{ $profil->nama_sekolah ?? 'SMK Negeri 1 Cijati' }}</p>
     </div>
 </section>
 
