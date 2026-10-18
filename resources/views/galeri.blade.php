@@ -366,7 +366,7 @@
 
 <!-- ======================= HERO (TIDAK DIUBAH) ======================= -->
 <section class="gl-hero">
-    <img src="{{ asset('images/smk.jpg') }}" alt="Galeri Kegiatan SMK Negeri 1 Cijati">
+    <img src="{{ asset('images/sekolah.jpg') }}" alt="Galeri Kegiatan SMK Negeri 1 Cijati">
     <span class="gl-hero-eyebrow">Galeri Kegiatan</span>
     <p>Dokumentasi kegiatan, prestasi, dan momen berharga siswa SMK Negeri 1 Cijati.</p>
 </section>

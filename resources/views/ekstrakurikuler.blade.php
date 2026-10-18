@@ -83,7 +83,7 @@
 
   <!-- HERO -->
   <div class="ekskul-hero">
-    <img src="{{ asset('images/smk.jpg') }}" alt="Ekstrakurikuler SMK Negeri 1 Cijati">
+    <img src="{{ asset('images/sekolah.jpg') }}" alt="Ekstrakurikuler SMK Negeri 1 Cijati">
 
     <div class="ekskul-hero-content">
       <span class="ekskul-hero-eyebrow">Ekstrakurikuler</span>

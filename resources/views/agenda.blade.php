@@ -100,7 +100,7 @@
 
 <!-- ======================= HERO ======================= -->
 <div class="jd-hero">
-    <img src="{{ asset('images/smk.jpg') }}" alt="Agenda Sekolah">
+    <img src="{{ asset('images/sekolah.jpg') }}" alt="Agenda Sekolah">
     <div class="jd-hero-content">
         <span class="jd-hero-eyebrow">Agenda Sekolah</span>
         <p class="jd-hero-subtitle">Informasi kegiatan dan agenda SMKN 1 Cijati</p>
