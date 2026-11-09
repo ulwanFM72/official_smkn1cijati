@@ -77,7 +77,6 @@
     <img src="{{ asset('images/sekolah.jpg') }}" alt="Sejarah Sekolah">
     <div class="jd-hero-content">
         <span class="jd-hero-eyebrow">Sejarah Sekolah</span>
-        <p>Perjalanan dan perkembangan {{ $profil->nama_sekolah ?? 'SMK Negeri 1 Cijati' }}</p>
     </div>
 </section>
 

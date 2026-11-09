@@ -710,12 +710,6 @@
             <span class="jd-hero-eyebrow">
                 Guru &amp; Staf
             </span>
-
-            <p>
-                Tenaga pendidik dan kependidikan
-                {{ $profil->nama_sekolah ?? 'SMK Negeri 1 Cijati' }}
-            </p>
-
         </div>
 
     </section>

@@ -77,7 +77,6 @@
     <img src="{{ asset('images/sekolah.jpg') }}" alt="Sejarah Sekolah">
     <div class="jd-hero-content">
         <span class="jd-hero-eyebrow">Program Pembiasaan</span>
-        <p>Pembiasaan positif setiap hari di {{ $profil->nama_sekolah ?? 'SMK Negeri 1 Cijati' }}</p>
     </div>
 </section>
 
@@ -211,7 +210,7 @@
                         <span class="pk-day">Selasa</span>
                         <h5 class="pk-title">SEHATI (Senam Sehat SMKN 1 Cijati)</h5>
                         <p class="pk-desc">
-                            Dilaksanakan setiap pagi sebelum kegiatan belajar mengajar dimulai.
+                            Dilaksanakan setiap pagi sebelum kegiatan belajar mengajar dimulai untuk menumbuhkan kebugaran dan kedisiplinan peserta didik.
                         </p>
                     </div>
 
@@ -230,9 +229,9 @@
                     <div class="pk-card">
                         <div class="pk-icon"><i class="fas fa-flag"></i></div>
                         <span class="pk-day">Kamis</span>
-                        <h5 class="pk-title">APEL Pagi</h5>
+                        <h5 class="pk-title">Apel Pagi</h5>
                         <p class="pk-desc">
-                           Dilaksanakan setiap pagi sebelum kegiatan belajar mengajar dimulai.
+                           Dilaksanakan setiap pagi sebelum kegiatan belajar mengajar dimulai untuk menumbuhkan rasa nasionalisme dan kedisiplinan peserta didik.
                         </p>
                     </div>
 
@@ -242,7 +241,7 @@
                         <span class="pk-day">Jumat</span>
                         <h5 class="pk-title">Istigosah</h5>
                         <p class="pk-desc">
-                            Gotong royong membersihkan lingkungan sekolah untuk menanamkan kepedulian lingkungan.
+                            Dilaksanakan setiap pagi sebelum kegiatan belajar mengajar dimulai untuk menumbuhkan iman dan takwa peserta didik.
                         </p>
                     </div>
 

@@ -28,12 +28,10 @@
                 [
                     'img'     => 'hero-1.jpg',
                     'title'   => 'Tempat Tumbuh, Tempat Berkarya',
-                    'desc'    => 'Membangun generasi kompeten, berkarakter, dan siap menghadapi masa depan.',
                 ],
                 [
                     'img'     => 'hero-2.jpg',
                     'title'   => 'Tumbuh Bersama, Melangkah Bersama',
-                    'desc'    => 'Membangun kedisiplinan, kebersamaan, dan karakter untuk masa depan.',
                 ],
             ];
         @endphp
@@ -47,7 +45,6 @@
                     <div class="hero-slide__content">
                         <div class="hero-slide__content-inner">
                             <h1 class="hero-title">{{ $slide['title'] }}</h1>
-                            <p class="hero-desc">{{ $slide['desc'] }}</p>
                         </div>
                     </div>
                 </div>
@@ -247,9 +244,6 @@
            <h2 class="berita-agenda-title d-inline-block" style="color:#1f2937;">
                 Berita & Agenda Sekolah
             </h2>
-            <p class="text-muted mt-2 mb-0">
-                Informasi dan kegiatan terkini {{ $profil->nama_sekolah ?? 'SMK Negeri 1 Cijati' }}
-            </p>
         </div>
 
         <div class="row g-5">
@@ -356,9 +350,6 @@
             <h2 class="jurusan-home-title d-inline-block" style="color:#1f2937; font-weight:400;">
                 Konsentrasi Keahlian
             </h2>
-            <p class="text-muted mt-2 mb-0">
-                Program keahlian unggulan yang mendukung kompetensi dan kesiapan kerja
-            </p>
         </div>
 
         <div class="row g-4 pt-3">
@@ -416,7 +407,6 @@
             <h2 class="jurusan-home-title d-inline-block" style="color:#1f2937; font-weight:400;">
                 Ekstrakurikuler Sekolah
             </h2>
-            <p>Wadah pengembangan bakat dan minat siswa di luar kegiatan akademik SMK Negeri 1 Cijati.</p>
         </div>
 
         @php
@@ -511,7 +501,6 @@
             Galeri Kegiatan
         </h2>
         <div class="gk-rule"></div>
-        <p class="gk-subtitle">Dokumentasi berbagai kegiatan dan aktivitas di SMKN 1 Cijati</p>
     </div>
 
     {{-- ===== Stage carousel ===== --}}
