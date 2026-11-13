@@ -142,7 +142,7 @@
                                 <div class="stat-icon-circle" style="background:#e7f1ff;">
                                     <i class="fas fa-chalkboard-teacher" style="color:#2563eb; font-size:1.3rem;"></i>
                                 </div>
-                                <h3 class="fw-bold mb-0" style="color:#1f2937;">{{ $jumlahGuru }}</h3>
+                                 <h3 class="fw-bold mb-0" style="color:#1f2937;">{{ $jumlahGuru }}</h3>
                                 <small class="text-muted">Guru & Staf</small>
                             </div>
                         </div>
